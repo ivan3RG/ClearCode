@@ -99,13 +99,10 @@
 		D0A5C1E226D005CB00C82900 /* ClearCode */ = {
 			isa = PBXGroup;
 			children = (
-				D0A5C1E326D005CB00C82900 /* AppDelegate.swift */,
-				D0A5C1E526D005CB00C82900 /* SceneDelegate.swift */,
-				D0A5C1E726D005CB00C82900 /* ViewController.swift */,
-				D0A5C1E926D005CB00C82900 /* Main.storyboard */,
-				D0A5C1EC26D005CC00C82900 /* Assets.xcassets */,
-				D0A5C1EE26D005CC00C82900 /* LaunchScreen.storyboard */,
-				D0A5C1F126D005CC00C82900 /* Info.plist */,
+				D0A5C21326D009D600C82900 /* App */,
+				D0A5C21826D00A7400C82900 /* Core */,
+				D0A5C21926D00A8900C82900 /* Resource */,
+				D0A5C21A26D00AA600C82900 /* Environments */,
 			);
 			path = ClearCode;
 			sourceTree = "<group>";
@@ -126,6 +123,73 @@
 				D0A5C20726D005CD00C82900 /* Info.plist */,
 			);
 			path = ClearCodeUITests;
+			sourceTree = "<group>";
+		};
+		D0A5C21326D009D600C82900 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D0A5C1E326D005CB00C82900 /* AppDelegate.swift */,
+				D0A5C21626D00A0C00C82900 /* Assembly */,
+				D0A5C21726D00A1A00C82900 /* Flows */,
+				D0A5C21526D009F700C82900 /* Entity */,
+				D0A5C21426D009E700C82900 /* BussinessLogic */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D0A5C21426D009E700C82900 /* BussinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BussinessLogic;
+			sourceTree = "<group>";
+		};
+		D0A5C21526D009F700C82900 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		D0A5C21626D00A0C00C82900 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		D0A5C21726D00A1A00C82900 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		D0A5C21826D00A7400C82900 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D0A5C21926D00A8900C82900 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D0A5C1E726D005CB00C82900 /* ViewController.swift */,
+				D0A5C1E526D005CB00C82900 /* SceneDelegate.swift */,
+				D0A5C1EE26D005CC00C82900 /* LaunchScreen.storyboard */,
+				D0A5C1E926D005CB00C82900 /* Main.storyboard */,
+				D0A5C1EC26D005CC00C82900 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D0A5C21A26D00AA600C82900 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				D0A5C1F126D005CC00C82900 /* Info.plist */,
+			);
+			path = Environments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
